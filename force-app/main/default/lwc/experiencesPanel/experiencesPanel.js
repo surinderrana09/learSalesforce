@@ -5,7 +5,7 @@ import EXPERIENCE_SELECTED_MESSAGE from "@salesforce/messageChannel/ExperienceSe
 import getExperiences from "@salesforce/apex/ExperienceController.getExperiences";
 import { getObjectInfo, getPicklistValues } from "lightning/uiObjectInfoApi";
 import TYPE_FIELD from "@salesforce/schema/Experience__c.Type__c";
-
+ //surinder
 export default class ExperiencePanel extends LightningElement {
   pageNumber = 1;
   pageSize;
