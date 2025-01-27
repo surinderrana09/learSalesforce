@@ -11,7 +11,7 @@
         System.assert(controller.registerUser() == null);    
         
         controller.password = 'abcd1234';
-        controller.confirmPassword = 'abcd123';
+        controller.confirmPassword = 'abcd123'; //test class changes
         System.assert(controller.registerUser() == null);  
     }
 }
